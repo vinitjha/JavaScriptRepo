@@ -7,3 +7,4 @@ function add(){
     
 }
 addBtn.addEventListener('click', add);
+outputResult(currentResult,calculationDescription);
