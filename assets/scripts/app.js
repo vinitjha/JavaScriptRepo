@@ -1,8 +1,8 @@
 const defaultResult = 0;
 let currentResult = defaultResult;
 
-function add(){
-    currentResult = int(currentResult + userInput.value);
+function add() {
+    currentResult = currentResult + userInput.value
     outputResult(currentResult, '')
     
 }
