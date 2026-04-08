@@ -10,25 +10,25 @@ function add() {
     const enteredNumber = parseInt(userInput.value);
     const initialResult = currentResult
     currentResult = currentResult + parseInt(enteredNumber);
-    createAndWriteOutput('+',initialResult,enteredNumber)
+    createAndWriteOutput('+', initialResult, enteredNumber)
     }
 function substract() {
     const enteredNumber = parseInt(userInput.value);
     const initialResult = currentResult
     currentResult = currentResult - parseInt(enteredNumber);
-    createAndWriteOutput('-',initialResult,enteredNumber)
+    createAndWriteOutput('-', initialResult, enteredNumber)
     }
 function multiply() {
     const enteredNumber = parseInt(userInput.value);
     const initialResult = currentResult
     currentResult = currentResult * parseInt(enteredNumber);
-    createAndWriteOutput('*',initialResult,enteredNumber)
+    createAndWriteOutput('*', initialResult, enteredNumber)
     }
 function divide() {
     const enteredNumber = parseInt(userInput.value);
     const initialResult = currentResult
     currentResult = currentResult * parseInt(enteredNumber);
-    createAndWriteOutput('/',initialResult,enteredNumber)
+    createAndWriteOutput('/', initialResult, enteredNumber)
     }    
 
 addBtn.addEventListener('click', add);
