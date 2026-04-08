@@ -1,3 +1,4 @@
+//calculator app
 const defaultResult = 0;
 let currentResult = defaultResult;
 
